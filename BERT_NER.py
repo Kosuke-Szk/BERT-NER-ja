@@ -189,9 +189,9 @@ class NerProcessor(DataProcessor):
         return self._create_example(
             self._read_data(os.path.join(data_dir, "test.txt")), "test")
 
-
     def get_labels(self):
-        return ['I-ORG', 'B-DAT', 'B-ORG', 'I-ART', 'I-MNY', 'B-TIM', 'I-PNT', 'I-PSN', 'I-DAT', 'O', 'B-PNT', 'B-PSN', 'I-LOC', 'B-MNY', 'B-LOC', 'B-ART', 'I-TIM', "X","[CLS]","[SEP]"]
+        return ['I-ORG', 'B-DAT', 'B-ORG', 'I-ART', 'I-MNY', 'B-TIM', 'I-PNT', 'I-PSN', 'I-DAT', 'O', 'B-PNT', 'B-PSN',
+                'I-LOC', 'B-MNY', 'B-LOC', 'B-ART', 'I-TIM', "X", "[CLS]", "[SEP]"]
 
     def _create_example(self, lines, set_type):
         examples = []
@@ -212,25 +212,34 @@ def write_tokens(tokens,mode):
                 wf.write(token+'\n')
         wf.close()
 
+
 def convert_single_example(ex_index, example, label_list, max_seq_length, tokenizer,mode):
     label_map = {}
-    for (i, label) in enumerate(label_list,1):
+    for (i, label) in enumerate(label_list, 1):
         label_map[label] = i
-    with open('./output/label2id.pkl','wb') as w:
-        pickle.dump(label_map,w)
+    with open('./output/label2id.pkl', 'wb') as w:
+        pickle.dump(label_map, w)
     textlist = example.text.split(' ')
     labellist = example.label.split(' ')
     tokens = []
     labels = []
     for i, word in enumerate(textlist):
+        # print(word)
         token = tokenizer.tokenize(word)
+        if '▁' in token:
+            token.remove('▁')  # '_'は削除しておく
+        # print(token)
         tokens.extend(token)
         label_1 = labellist[i]
         for m in range(len(token)):
-            if m == 0:
-                labels.append(label_1)
-            else:
-                labels.append("X")
+            labels.append(label_1)
+            # print(label_1)
+            # if m == 0:
+            #     labels.append(label_1)
+            #     print(label_1)
+            # else:
+            #     labels.append("X")  # ここでスペースにXを付与している
+            #     print("X")
     # tokens = tokenizer.tokenize(example.text)
     if len(tokens) >= max_seq_length - 1:
         tokens = tokens[0:(max_seq_length - 2)]
@@ -290,9 +299,7 @@ def convert_single_example(ex_index, example, label_list, max_seq_length, tokeni
     return feature
 
 
-def filed_based_convert_examples_to_features(
-        examples, label_list, max_seq_length, tokenizer, output_file,mode=None
-):
+def filed_based_convert_examples_to_features(examples, label_list, max_seq_length, tokenizer, output_file, mode=None):
     writer = tf.python_io.TFRecordWriter(output_file)
     for (ex_index, example) in enumerate(examples):
         if ex_index % 5000 == 0:
@@ -612,6 +619,7 @@ def main(_):
             for prediction in result:
                 output_line = "\n".join(id2label[id] for id in prediction if id!=0) + "\n"
                 writer.write(output_line)
+
 
 if __name__ == "__main__":
     flags.mark_flag_as_required("data_dir")
