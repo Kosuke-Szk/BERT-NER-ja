@@ -1,0 +1,16 @@
+python BERT_NER.py \
+	--task_name="NER" \
+	--do_train=True \
+	--do_eval=False \
+	--do_predict=True \
+	--data_dir=HironsanData \
+	--model_file=ja-checkpoint/wiki-ja.model \
+	--vocab_file=ja-checkpoint/wiki-ja.vocab \
+	--bert_config_file=checkpoint/bert_config.json \
+	--init_checkpoint=ja-checkpoint/model.ckpt-1400000 \
+	--max_seq_length=64 \
+	--train_batch_size=32 \
+	--learning_rate=2e-5 \
+	--num_train_epochs=3.0 \
+	--output_dir=./output/result_dir/ \
+	--num_train_epochs=11
