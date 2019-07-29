@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/BERT_KW.py" description="        tf.logging.info(&quot;***** Running prediction*..." line="597" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="20b85a9d-0467-4828-acfc-bfcdd2d04567" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/BERT_KW.py" beforeDir="false" afterPath="$PROJECT_DIR$/BERT_KW.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bert" beforeDir="false" afterPath="$PROJECT_DIR$/bert" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_ja_kw.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run_ja_kw.sh" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BERT_KW.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="619" column="27" lean-forward="true" selection-start-line="619" selection-start-column="27" selection-end-line="619" selection-end-column="27" />
+              <folding>
+                <element signature="e#147#185#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_ja_kw.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bert/modeling.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1696">
+              <caret line="117" column="65" selection-start-line="117" selection-start-column="65" selection-end-line="117" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bert/tokenization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2800">
+              <caret line="183" selection-start-line="183" selection-end-line="183" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BERT_NER.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7456">
+              <caret line="479" selection-start-line="479" selection-end-line="480" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bert/tokenization_sentencepiece.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="928">
+              <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SentencePieceTokenizer</find>
+      <find>FullTokenizer</find>
+      <find>model_file</find>
+      <find>tokenization.</find>
+      <find>tokenizer</find>
+      <find>filed_based_convert_examples_to_features</find>
+      <find>def convert_single_example</find>
+      <find>model_fn_builder</find>
+      <find>Kwprocessor</find>
+      <find>tokenization</find>
+      <find>KwProcessor</find>
+      <find>processors</find>
+      <find>bert_config</find>
+      <find>modeling</find>
+      <find>label_list</find>
+      <find>num_train_steps</find>
+      <find>run_config</find>
+      <find>master</find>
+      <find>None</find>
+      <find>num_tpu_cores</find>
+      <find>pickle</find>
+      <find>collections</find>
+      <find>collections</find>
+      <find>predict_file</find>
+      <find>convert_single</find>
+      <find>ntokens</find>
+      <find>kw_result</find>
+      <find>print</find>
+      <find>id2label</find>
+      <find>output_dir</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/run_ja_ner.sh" />
+        <option value="$PROJECT_DIR$/HironsanData/test.txt" />
+        <option value="$PROJECT_DIR$/.ipynb_checkpoints/BERT_NER-checkpoint.py" />
+        <option value="$PROJECT_DIR$/bert/tokenization.py" />
+        <option value="$PROJECT_DIR$/BERT_NER.py" />
+        <option value="$PROJECT_DIR$/run_ja_kw.sh" />
+        <option value="$PROJECT_DIR$/BERT_KW.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BERT-NER-ja" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BERT-NER-ja" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BERT-NER-ja" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BERT-NER-ja" type="462c0819:PsiDirectoryNode" />
+              <item name="HironsanData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BERT-NER-ja" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BERT-NER-ja" type="462c0819:PsiDirectoryNode" />
+              <item name="KeywordData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BERT-NER-ja" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BERT-NER-ja" type="462c0819:PsiDirectoryNode" />
+              <item name="NERdata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BERT-NER-ja" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BERT-NER-ja" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20b85a9d-0467-4828-acfc-bfcdd2d04567" name="Default Changelist" comment="" />
+      <created>1555752588313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555752588313</updated>
+      <workItem from="1555752590039" duration="9813000" />
+      <workItem from="1557282199051" duration="2674000" />
+      <workItem from="1561951852214" duration="11723000" />
+      <workItem from="1564366889567" duration="555000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24765000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3120482" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/output/result_dir/label_test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/result_dir/token_test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HironsanData/dev.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/BERT_NER-checkpoint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="377" column="65" selection-start-line="377" selection-start-column="63" selection-end-line="377" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HironsanData/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KeywordData/dev.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KeywordData/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NERdata/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11616">
+          <caret line="726" column="10" selection-start-line="726" selection-end-line="726" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_ja_ner.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bert/modeling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1696">
+          <caret line="117" column="65" selection-start-line="117" selection-start-column="65" selection-end-line="117" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bert/tokenization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2800">
+          <caret line="183" selection-start-line="183" selection-end-line="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BERT_NER.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7456">
+          <caret line="479" selection-start-line="479" selection-end-line="480" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bert/tokenization_sentencepiece.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_ja_kw.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BERT_KW.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="619" column="27" lean-forward="true" selection-start-line="619" selection-start-column="27" selection-end-line="619" selection-end-column="27" />
+          <folding>
+            <element signature="e#147#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

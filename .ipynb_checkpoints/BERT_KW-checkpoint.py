@@ -479,8 +479,8 @@ def main(_):
     processors = {
         "kw": KwProcessor
     }
-    # if not FLAGS.do_train and not FLAGS.do_eval:
-    #     raise ValueError("At least one of `do_train` or `do_eval` must be True.")
+    if not FLAGS.do_train and not FLAGS.do_eval:
+        raise ValueError("At least one of `do_train` or `do_eval` must be True.")
 
     bert_config = modeling.BertConfig.from_json_file(FLAGS.bert_config_file)
 
@@ -616,12 +616,9 @@ def main(_):
             drop_remainder=predict_drop_remainder)
 
         result = estimator.predict(input_fn=predict_input_fn)
-        # print('!!!!!!!!')
-        # print(list(result))
         output_predict_file = os.path.join(FLAGS.output_dir, "label_test.txt")
         with open(output_predict_file,'w') as writer:
             for prediction in result:
-                print(prediction)
                 output_line = "\n".join(id2label[id] for id in prediction if id!=0) + "\n"
                 writer.write(output_line)
 
